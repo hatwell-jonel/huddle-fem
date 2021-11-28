@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Public+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Public+Sans:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h3, h4, h5, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav .container .logo {
+  width: 125px;
+}
+.nav .container .try-it {
+  border: 2px solid #ff52bf;
+  padding: 0.3rem 2rem;
+  border-radius: 50px;
+  font-size: 0.838rem;
+  text-decoration: none;
+  color: #ff52bf;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 8px -2px #ff8fd8;
+}
+
+.header {
+  padding-top: 9rem;
+  padding-bottom: 2rem;
+}
+.header .container {
+  height: auto;
+  text-align: center;
+}
+.header .container h1 {
+  line-height: 1.5;
+  font-size: 1.688rem;
+  color: #00252e;
+}
+.header .container p {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  color: #00252e;
+  margin: 1.5rem 0rem;
+}
+.header .container .get-started {
+  background-color: #ff52bf;
+  color: white;
+  text-decoration: none;
+  font-family: "Public Sans", sans-serif;
+  padding: 0.7rem 2.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  box-shadow: 0px 0px 8px -2px black;
+}
+.header .container .get-started:hover {
+  opacity: 0.9;
+}
+
+.stats {
+  padding-top: 5rem;
+}
+.stats .container .numbers {
+  margin-top: 5rem;
+}
+@media screen and (min-width: 768px) {
+  .stats .container .numbers {
+    justify-content: space-between;
+  }
+}
+.stats .container .numbers .box {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .stats .container .numbers .box {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .stats .container .numbers .box {
+    width: 300px;
+  }
+}
+.stats .container .numbers .box__number {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 6.5rem;
+}
+@media screen and (min-width: 768px) {
+  .stats .container .numbers .box__number {
+    font-size: 5rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 992px) {
+  .stats .container .numbers .box__number {
+    font-size: 6rem;
+    text-align: left;
+  }
+}
+.stats .container .numbers .box__label {
+  text-align: center;
+  font-family: "Public Sans", sans-serif;
+}
+.stats .container .numbers .box .label--left {
+  text-align: left;
+}
+
+.grow-together .wrapper,
+.your-user .wrapper {
+  background-color: #F4FBFF;
+  margin: 0;
+}
+.grow-together .wrapper .container,
+.your-user .wrapper .container {
+  background-color: #F4FBFF;
+  padding: 5rem 0rem 2rem;
+}
+@media screen and (min-width: 768px) {
+  .grow-together .wrapper .container,
+.your-user .wrapper .container {
+    padding: 5rem 0rem;
+  }
+}
+.grow-together .wrapper .container__img,
+.your-user .wrapper .container__img {
+  width: 90%;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .grow-together .wrapper .container__img,
+.your-user .wrapper .container__img {
+    width: 100%;
+  }
+}
+.grow-together .wrapper .container__text,
+.your-user .wrapper .container__text {
+  text-align: center;
+  margin-top: 5rem;
+  color: #00252e;
+}
+@media screen and (min-width: 768px) {
+  .grow-together .wrapper .container__text,
+.your-user .wrapper .container__text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-right: 1.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .grow-together .wrapper .container__text,
+.your-user .wrapper .container__text {
+    margin-right: 3.5rem;
+  }
+}
+.grow-together .wrapper .container__text .title,
+.your-user .wrapper .container__text .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.688rem;
+  margin-bottom: 1.3rem;
+}
+@media screen and (min-width: 992px) {
+  .grow-together .wrapper .container__text .title,
+.your-user .wrapper .container__text .title {
+    font-size: 2.3rem;
+  }
+}
+.grow-together .wrapper .container__text .details,
+.your-user .wrapper .container__text .details {
+  font-family: "Public Sans", sans-serif;
+}
+@media screen and (min-width: 992px) {
+  .grow-together .wrapper .container__text .details,
+.your-user .wrapper .container__text .details {
+    font-size: 1.059rem;
+  }
+}
+
+.conversation .container {
+  padding: 10rem 0rem;
+}
+.conversation .container__img {
+  width: 90%;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .conversation .container__img {
+    width: 100%;
+  }
+}
+.conversation .container__text {
+  text-align: center;
+  margin-top: 5rem;
+  color: #00252e;
+}
+@media screen and (min-width: 768px) {
+  .conversation .container__text {
+    text-align: left;
+    margin-left: 4rem;
+  }
+}
+.conversation .container__text .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.688rem;
+  margin-bottom: 1.3rem;
+}
+@media screen and (min-width: 992px) {
+  .conversation .container__text .title {
+    font-size: 2.3rem;
+  }
+}
+.conversation .container__text .details {
+  font-family: "Public Sans", sans-serif;
+}
+@media screen and (min-width: 992px) {
+  .conversation .container__text .details {
+    font-size: 1.059rem;
+  }
+}
+
+.build .container {
+  padding: 11rem 0rem;
+  text-align: center;
+}
+.build .container__title {
+  color: #00252e;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 3rem;
+}
+.build .container .get-started {
+  background-color: #ff52bf;
+  color: white;
+  text-decoration: none;
+  font-family: "Public Sans", sans-serif;
+  padding: 0.7rem 2.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  box-shadow: 0px 0px 8px -2px black;
+}
+.build .container .get-started:hover {
+  opacity: 0.9;
+}
+
+.footer .wrapper {
+  background-color: #00252E;
+}
+.footer .wrapper .container {
+  color: white;
+}
+.footer .wrapper .container .newsletter__title {
+  font-family: "Poppins", sans-serif;
+}
+.footer .wrapper .container .newsletter__details {
+  font-family: "Public Sans", sans-serif;
+  padding: 1rem 0rem;
+}
+.footer .wrapper .container .newsletter .input {
+  display: flex;
+  flex-direction: column;
+}
+.footer .wrapper .container .newsletter .input .btn {
+  width: 50%;
+  margin-top: 0.85rem;
+  font-family: "Public Sans", sans-serif;
+  letter-spacing: 1px;
+  padding: 0.5rem 3rem;
+  color: white;
+  background-color: #ff52bf;
+}
+.footer .wrapper .container .contact {
+  margin-top: 5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer .wrapper .container .contact {
+    margin-top: 0rem;
+    margin-right: 4rem;
+  }
+}
+.footer .wrapper .container .contact__details {
+  margin: 1rem 0rem 2rem;
+}
+.footer .wrapper .container .contact__info {
+  margin: 1rem 0rem;
+}
+.footer .wrapper .container .contact__socials {
+  margin-top: 3rem;
+}
+.footer .wrapper .container .contact__socials i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}

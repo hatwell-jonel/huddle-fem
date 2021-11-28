@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <link rel="stylesheet" href="./styles/css/main.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <nav class="nav p-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="./index.html" class="logo">
+        <img src="./images/logo.svg" alt="huddle" class="img-fluid">
+      </a>
+
+      <a href="#" class="try-it">Try it free</a>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="container">
+      <h1>Build The Community <br class="d-block d-md-none"> Your Fans Will Love</h1>
+      <p>Huddle re-imagines the way we build communities. You have a <br class="d-none d-md-block"> voice,
+        but so does
+        your audience. Create connections with your <br class="d-none d-md-block"> users as you engage in genuine
+        discussion.</p>
+      <a href="#" class="get-started">Get Started For Free</a>
+    </div>
+  </header>
+
+  <section class="stats" data-aos="fade-right">
+    <div class=" container">
+      <img src="./images/screen-mockups.svg" class="img-fluid" alt="screen">
+
+      <div class="numbers d-md-flex">
+        <div class="box">
+          <img src="./images/icon-communities.svg" alt="communities" class="img-fluid">
+          <div class="box__number">1.4k+</div>
+          <div class="box__label label--left">Communities Formed</div>
+        </div>
+
+        <div class="box mt-md-0 mt-5">
+          <img src="./images/icon-messages.svg" al t="message" class="img-fluid">
+          <div class="box__number">2.7m+</div>
+          <div class="box__label">Messages Sent</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="grow-together" data-aos="fade-left">
+    <img src="./images/bg-section-top-desktop-1.svg" alt="background" class="img-fluid">
+    <div class="wrapper">
+      <div class="container d-md-flex flex-row-reverse">
+        <div class="container__img">
+          <img src="./images/illustration-grow-together.svg" alt="image" class="img-fluid" />
+        </div>
+        <div class="container__text">
+          <h2 class="title">Grow Together</h2>
+          <p class="details">
+            Generate meaningful discussions with your audience and build a strong, loyal community.
+            Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./images/bg-section-bottom-desktop-1.svg" alt="background" class="img-fluid">
+  </section>
+
+
+  <section class="conversation" data-aos="fade-right">
+    <div class="container d-md-flex">
+      <div class="container__img">
+        <img src="./images/illustration-flowing-conversation.svg" alt="image" class="img-fluid">
+      </div>
+      <div class="container__text">
+        <h2 class="title">Flowing Conversations</h2>
+        <p class="details">
+          You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+          just-in-time loading for a more natural flow.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="your-user" data-aos="fade-left">
+    <img src="./images/bg-section-top-desktop-2.svg" alt="background" class="img-fluid">
+    <div class="wrapper">
+      <div class="container d-md-flex flex-row-reverse">
+        <div class="container__img">
+          <img src="./images/illustration-your-users.svg" alt="image" class="img-fluid" />
+        </div>
+        <div class="container__text">
+          <h2 class="title">Your Users</h2>
+          <p class="details">
+            It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+            once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./images/bg-section-bottom-desktop-2.svg" alt="background" class="img-fluid">
+  </section>
+
+  <section class="build" data-aos="fade-down">
+    <div class="container">
+      <h2 class="container__title">Ready To Build Your Community?</h2>
+
+      <a href="#" class="get-started">Get Started For Free</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <img src="./images/bg-footer-top-desktop.svg" alt="backgound" class="img-fluid">
+    <div class="wrapper">
+      <div class="container py-5 d-md-flex">
+        <div class="newsletter order-2">
+          <h3 class="newsletter__title">Newsletter</h3>
+          <p class="newsletter__details">To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never
+            send you spam or pass on your email address</p>
+          <div class="input d-md-flex">
+            <input type="email" class="form-control" />
+            <button class="newsletter__btn btn">Subscribe</button>
+          </div>
+
+        </div>
+        <div class="contact">
+          <img src="./images/logo-white.svg" alt="huddle" class="img-fluid">
+          <p class="contact__details">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+            vestibulum a, ultrices quis sem.
+          </p>
+
+          <div class="contact__info">
+            <img src="./images/icon-phone.svg" alt="icon">
+            <span>Phone: +1-543-123-4567</span>
+          </div>
+
+          <div class="contact__info">
+            <img src="./images/icon-email.svg" alt="icon">
+            <span>example@huddle.com</span>
+          </div>
+          <div class="contact__socials d-flex">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter-square"></i>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 1000
+    });
+  </script>
+
+</body>
+
+</html>
