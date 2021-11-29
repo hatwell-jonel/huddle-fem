@@ -1,0 +1,122 @@
+.footer{
+  .wrapper{
+    background-color: $Very-Dark-Cyan;
+    padding: 4rem 0rem;
+    
+    .container{
+      display: flex;
+      flex-direction: column-reverse;
+
+      @include breakpoint(md){
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      
+      .contact{
+
+        @include breakpoint(md){
+          margin-right: 6rem;
+        }
+
+        @include breakpoint(lg){
+          margin-right: 15rem;
+        }
+        &__text{
+          color: $white;
+          margin: 1rem 0rem 2rem;
+        }
+
+        &__info{
+          color: $white;
+          .details{
+            margin-bottom: .5rem;
+            .icon{
+              margin-right: 1rem;
+            }
+            .text{
+              color: $white;
+              margin: 0;            
+            }
+          }
+       
+        }
+
+        .social-media{
+          margin: 0;
+          padding: 0;
+          margin-top: 2rem;
+          li{
+            margin-right: 1rem;
+            a{
+              color: $white;
+              font-size: 2rem;
+
+              &:hover{
+                color: #07C6FE;
+              }
+            }
+          }
+        }
+      }
+
+      .newsletter{
+        margin-bottom: 5rem;
+
+        &__title{
+          color: darken($white, 10%);
+          margin-bottom: 1rem;
+        }
+
+        &__details{
+          color: darken($white, 10%);
+          margin-bottom: 1rem;
+        }
+
+        .form{
+          @include breakpoint(lg){
+            display: flex;
+          }
+          .input{
+            height: 60px;
+            @include breakpoint(lg){
+             width: 70%;
+              margin-right: 1rem;
+            }
+
+            .feedback{
+              color: #ff0000;
+              letter-spacing: 1px;
+              margin-top: .236rem;
+            }
+          }
+          .button{
+            display: flex;
+            justify-content: flex-end;
+            @include breakpoint(lg){
+              width: 30%;
+            }
+            button{
+              width: 50%;
+              background-color: $Pink;
+              color: $white;
+              letter-spacing: 1px;
+              font-weight: 600;
+              max-height: 38px;
+
+              @include breakpoint(lg){
+                width: 100%;
+                padding: .5rem auto;
+              }
+
+              &:hover{
+                opacity: .8;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+
+  }
+}

@@ -1,0 +1,116 @@
+.header{
+  .container{
+    padding: 1rem 0rem;
+
+    @include breakpoint(md){
+      padding-top: clamp(1.8rem, 10vw, 2.3rem);
+    }
+
+    .nav{
+      display: flex;
+      justify-content: space-between;
+      padding: .3rem 0rem;
+
+      .logo{
+        img{
+          width: 130px;
+        }
+      }
+
+      .try-it{
+        @include button;
+        transition: .3s linear;
+        &:hover{
+          background-color: $Pink;
+          color: $white;
+        }
+      }
+    }
+
+
+    .hero{
+      text-align: center;
+      margin-top: 7rem;
+
+      @include breakpoint(md){
+        margin-top: 9rem;
+      }
+
+      &__title{
+        font-size: clamp(1.5rem, 7vw, 2.5rem);
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
+      }
+
+      &__details{
+        font-weight: 500;
+        margin-bottom: 3.4rem;
+      }
+
+      &__button{
+       @include button;
+       background-color: $Pink;
+       color: $white;
+       padding: .6rem 2.5rem;
+
+        &:hover{
+          opacity: .8;
+        }
+
+      }
+
+      &__img{
+        margin-top: 7rem;
+      }
+
+      &__number-wrapper{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &:last-child{
+          margin-bottom: 0rem;
+        }
+
+        @include breakpoint(md){
+          flex-direction: row;
+          justify-content: space-between;
+        }
+
+        .number{
+          max-width: 300px;
+          padding: 10px;
+          // margin: 0 auto;
+          margin-bottom: 4rem;
+  
+        @include breakpoint(md){
+          margin:none;
+        }
+  
+          .img-container{
+            text-align: left;
+          }
+  
+          p{
+            margin: 0;
+            padding: 0;
+          }
+  
+          .numbers{
+            font-family: $font-heading;
+            font-size: 5rem;
+            line-height: 1.3;
+            letter-spacing: 0.179rem;
+          }
+  
+          .numbers-label{
+            color: lighten($black, 50%);
+            letter-spacing: 1px;
+          }
+        }
+      }
+
+    }
+  }
+}

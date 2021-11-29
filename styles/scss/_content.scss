@@ -1,0 +1,106 @@
+.main{
+  .grow-together{
+    .wrapper{
+      background-color: $background;
+      .grow-together-content{
+        padding: 5rem 0rem 2rem;
+  
+        &__text{
+          position: relative;
+          text-align: center;
+          padding-top: 5rem;
+
+          @include breakpoint(md){
+            text-align: left;
+            margin-right: .5rem;
+          }
+
+          @include breakpoint(lg){
+            margin-right: 8rem;
+          }
+  
+          .title{
+            margin-bottom: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .conversation{
+    padding: 6rem 0rem 3rem;
+
+    .conversation-content{
+      &__text{
+        padding-top: 5rem;
+        text-align: center;
+
+        @include breakpoint(md){
+          text-align: left;
+          margin-left: 1rem;
+        }
+
+         @include breakpoint(lg){
+            margin-left: 6rem;
+          }
+
+        .title{
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .your-user{
+    .wrapper{
+      background-color: $background;
+
+      .your-user-content{
+        padding: 5rem 0rem 2rem;
+        &__text{
+          position: relative;
+          text-align: center;
+          padding-top: 5rem;
+
+          @include breakpoint(md){
+            text-align: left;
+            margin-right: .5rem;
+          }
+
+          @include breakpoint(lg){
+            margin-right: 8rem;
+          }
+  
+          .title{
+            margin-bottom: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .build{
+    .build-content{
+      padding: 6rem 0rem 3rem;
+      text-align: center;
+
+      &__title{
+        margin-bottom: 3rem;
+      }
+
+      &__btn{
+        @include button;
+        background-color: $Pink;
+        color: $white;
+        padding: .7rem 2.5rem;
+        font-weight: 600;
+        box-shadow: 0px 0px 8px -2px $black;
+
+
+        &:hover{
+          opacity: .8;
+        }
+      }
+    }
+  }
+}
